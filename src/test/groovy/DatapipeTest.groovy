@@ -1,6 +1,6 @@
 import spock.lang.Specification
 
-class DatapipesTest extends Specification {
+class DatapipeTest extends Specification {
 
     def "datapipes test"() {
         expect:
