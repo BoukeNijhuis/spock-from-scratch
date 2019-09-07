@@ -1,7 +1,7 @@
-import org.junit.Ignore
+import spock.lang.Ignore
 import spock.lang.Specification
 
-@spock.lang.Ignore
+@Ignore
 class ArgumentConstraintsTest extends Specification {
 
     def "default mock test"() {
