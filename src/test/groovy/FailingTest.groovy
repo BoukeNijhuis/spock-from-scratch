@@ -6,7 +6,6 @@ class FailingTest extends Specification {
     def "failing test"() {
         expect:
         Math.min(a, b) == result
-
         where:
         a | b || result
         4 | 2 || 4

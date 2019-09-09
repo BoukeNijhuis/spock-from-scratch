@@ -7,6 +7,6 @@ class SimpleDatatableTest extends Specification {
         number % 2 == 1
 
         where:
-        number << [1, 3, 15, Integer.MAX_VALUE ]
+        number << [1, 3, 15, Integer.MAX_VALUE]
     }
 }
