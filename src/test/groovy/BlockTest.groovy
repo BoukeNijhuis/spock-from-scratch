@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class BlockTest extends Specification {
 
-    def "block test"() {
+    void "block test"() {
         given:
         String string = "abc"
 

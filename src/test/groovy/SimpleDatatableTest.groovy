@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class SimpleDatatableTest extends Specification {
 
-    def "simple datatable test"() {
+    void "simple datatable test"() {
         expect:
         number % 2 == 1
 

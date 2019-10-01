@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class SpecificationAsDocumentationTest extends Specification {
 
-    def "specification as documentation test"() {
+    void "specification as documentation test"() {
         given: "an empty bank account"
         // ...
 

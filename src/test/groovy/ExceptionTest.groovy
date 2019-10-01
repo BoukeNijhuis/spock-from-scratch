@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class ExceptionTest extends Specification {
 
-    def "exception test"() {
+    void "exception test"() {
         when:
         String s = null
         s.length()

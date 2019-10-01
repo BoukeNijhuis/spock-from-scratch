@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class InteractionTest extends Specification {
 
-    def "interaction test"() {
+    void "interaction test"() {
         List listMock = Mock()
         when:
         listMock.size()

@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class DatapipeTest extends Specification {
 
-    def "datapipes test"() {
+    void "datapipes test"() {
         expect:
         Math.min(a, b) == result
 

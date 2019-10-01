@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class FirstTest extends Specification {
 
-    def "first test"() {
+    void firstTest() {
         expect:
         true != false
     }

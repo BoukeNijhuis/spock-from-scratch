@@ -4,7 +4,7 @@ import spock.lang.Specification
 @Ignore
 class ArgumentConstraintsTest extends Specification {
 
-    def "default mock test"() {
+    void "voidault mock test"() {
         List listMock = Mock();
 
         when:
